@@ -1,0 +1,32 @@
+1. Split the acvi in the three main programs hwsgen, opbgen and rmegen
+
+2. Change all declarations of 
+
+	DATA NF0,N2,N3/Z3FFFFFFF,Z80000000,ZC0000000/  
+     
+   for hexadecimal systems into the decimals
+   
+	DATA NF0,N2,N3/1073741823,-2147483648,-1073741824/     
+     
+3. Daclare all the NF0 as 
+
+	DATA    NF0/1073741823/
+
+   instead of 
+
+	DATA NF0/Z3FFFFFFF/
+	
+4. Compile hwsgen.f with legacy version of gfortran with flag -std
+
+	gfortran -std=legacy -o hwsgen.out hwsgen.f
+	
+5. Locate the file fort.4 along with the hwsgen.f, opbgen.f and rmegen.f in the same folder
+
+6. Compile opbgen.f and rmegen.f with nvidia compiler pgf77
+
+	pgf77 -o opbgen.out opbgen.f
+	pgf77 -o rmegen.out rmegen.f
+
+7. Refer to C. Bahri, J.P. Draayer, SU(3) reduced matrix element package, Computer Physics Communications, 1994, https://doi.org/10.1016/0010-4655(94)90035-3 to construct the input file hwsir.*
+
+8. Locate the file hwsir.* in the same folder as hwsgen.f
