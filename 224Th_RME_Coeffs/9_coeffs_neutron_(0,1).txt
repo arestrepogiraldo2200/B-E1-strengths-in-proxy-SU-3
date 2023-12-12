@@ -1,0 +1,32 @@
+Script started on 2023-12-11 16:12:19-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="166" LINES="45"]
+[?2004h(base) ]0;alejandro@alejandro: ~/Downloads/Thesis_Programs/su3lib/tools[01;32malejandro@alejandro[00m:[01;34m~/Downloads/Thesis_Programs/su3lib/tools[00m$ exit./SU3_U9Coeffs
+[?2004lComputation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+39 2
+Enter (lm2 mu2) 
+0 1
+Enter (lm12 mu12) 
+34 4
+Enter (lm3 mu3) 
+26 4
+Enter (lm4 mu4) 
+0 0
+Enter (lm34 mu34) 
+26 4
+Enter (lm13 mu13) 
+65 5 6
+Enter (lm24 mu24) 
+0 1
+Enter (lm mu) 
+60 8
+(39 2) x (0 1) does not couple to (34 4)
+(65 6) x (0 1) does not couple to (60 8)
+[?2004h(base) ]0;alejandro@alejandro: ~/Downloads/Thesis_Programs/su3lib/tools[01;32malejandro@alejandro[00m:[01;34m~/Downloads/Thesis_Programs/su3lib/tools[00m$ ./SU3_U9Coeffsexit[K
+[?2004lexit
+
+Script done on 2023-12-11 16:12:51-05:00 [COMMAND_EXIT_CODE="1"]
