@@ -1,0 +1,14 @@
+SU(3) Wigner coefficients in physical basis: <(lm1 mu1) k1 L1; (lm2 mu3) k2 L2|| (lm3 mu3) k3 L3>rho.
+Enter (lm1 mu1) 
+65 6
+Enter L1 ... -1 to include all values
+-1
+Enter (lm2 mu2) 
+1 2
+Enter L2 .... -1 to include all values
+1
+Enter (lm3 mu3) 
+60 8
+Enter L3 .... -1 to include all values
+-1
+(65 6) and (1 2) does not couple to (60 8)
