@@ -1,0 +1,31 @@
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+32 2
+Enter (lm2 mu2) 
+6 0
+Enter (lm12 mu12) 
+34 4
+Enter (lm3 mu3) 
+7 0
+Enter (lm4 mu4) 
+0 7
+Enter (lm34 mu34) 
+0 0
+Enter (lm13 mu13) 
+39 2
+Enter (lm24 mu24) 
+2 3
+Enter (lm mu) 
+34 4
+(32 2)  (6 0)  (34 4)   rho12
+(7 0)  (0 7)  (0 0)   rho34
+(39 2)  (2 3)  (34 4)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0     0.05191941
