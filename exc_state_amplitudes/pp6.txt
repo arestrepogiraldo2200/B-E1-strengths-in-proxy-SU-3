@@ -1,0 +1,96 @@
+ ENTERING *** REDUCED MATRIX ELEMENTS (RMEGEN) ***
+
+ Enter input file unit: 
+15
+ =>   15
+ 
+ Enter input file name: 
+pp6
+ =>    pp6                 
+ =>    hwsw.pp6            
+ =>    opbw.pp6            
+ =>    rmew.pp6            
+ =>    hwsir.pp6           
+ 
+ Enter log file unit number:
+       0: none
+     1-3: some intermediate results
+     >=7: all intermediate results
+0
+ =>    0
+ 
+ Enter number of multiplicity for one level:
+2
+ =>    2
+ Enter operator structure:
+       0: read everything from the file
+       1: read a+ only from the file
+     >=2: generate everything on the fly
+ 
+0
+ =>    0
+ Enter # of a+_s, a_s:
+1 1
+ =>    1    1
+ 
+ Enter the tensor character of operators:
+       0: L=0 --> scalar
+       1: L=1 --> vector
+    else: all tensors
+2
+ =>    2
+ 
+ Do you want limited numbers of (lm mu)?
+ (0 for no, 1 for yes)
+0
+ =>    0
+ 
+ Enter minimum (lm mu):
+0 0 
+ =>    0    0
+ 
+ Enter maximum (lm mu):
+1000 1000
+ => 1000 1000
+ 
+ lm = mu ?
+0
+ =>    0
+ 
+
+ Statistics from trees         :      Nodes       Data
+        operators ibtree       :      12158      12186
+        operators ictree       :       4444      12186
+        states    istree       :          6          2       2
+ 
+ *--------------  --------------*                                    
+   6   0   1   0   6   0   1   0
+ *--------------  --------------*                                    
+
+  < NL : AL( LM MU) ST  |||  T  ||| NR : AL( LM MU) ST >
+     1    1   6  0   1               1    1   6  0   1
+
+    < bra ||| N1 (LM MU)ST(x)N2 (LM MU)ST;RO( LM MU)ST ||| ket >RO
+               1 ( 6  0) 1(x) 1 ( 0  6) 1; 1(  0  0) 0           1      0.1336306210
+                                           1(  0  0) 2           1      0.2314550249
+                                           1(  1  1) 0           1      0.3779644730
+                                           1(  1  1) 2           1      0.6546536707
+                                           1(  2  2) 0           1      0.6943650748
+                                           1(  2  2) 2           1      1.2026755886
+                                           1(  3  3) 0           1      1.0690449676
+                                           1(  3  3) 2           1      1.8516401995
+                                           1(  4  4) 0           1      1.4940357617
+                                           1(  4  4) 2           1      2.5877458475
+                                           1(  5  5) 0           1      1.9639610121
+                                           1(  5  5) 2           1      3.4016802571
+                                           1(  6  6) 0           1      2.4748737342
+                                           1(  6  6) 2           1      4.2866070499
+ 
+
+ Statistics from trees         :      Nodes       Data
+        operators ibtree       :      12158      12186
+        operators ictree       :       4444      12186
+        rmes      irmtree      :         14         14
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+

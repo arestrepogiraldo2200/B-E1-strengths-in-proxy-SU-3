@@ -1,0 +1,118 @@
+ ENTERING *** REDUCED MATRIX ELEMENTS (RMEGEN) ***
+
+ Enter input file unit: 
+15
+ =>   15
+ 
+ Enter input file name: 
+nn6
+ =>    nn6                 
+ =>    hwsw.nn6            
+ =>    opbw.nn6            
+ =>    rmew.nn6            
+ =>    hwsir.nn6           
+ 
+ Enter log file unit number:
+       0: none
+     1-3: some intermediate results
+     >=7: all intermediate results
+0
+ =>    0
+ 
+ Enter number of multiplicity for one level:
+2
+ =>    2
+ Enter operator structure:
+       0: read everything from the file
+       1: read a+ only from the file
+     >=2: generate everything on the fly
+ 
+0
+ =>    0
+ Enter # of a+_s, a_s:
+1 1
+ =>    1    1
+ 
+ Enter the tensor character of operators:
+       0: L=0 --> scalar
+       1: L=1 --> vector
+    else: all tensors
+2
+ =>    2
+ 
+ Do you want limited numbers of (lm mu)?
+ (0 for no, 1 for yes)
+0
+ =>    0
+ 
+ Enter minimum (lm mu):
+0 0
+ =>    0    0
+ 
+ Enter maximum (lm mu):
+1000 1000
+ => 1000 1000
+ 
+ lm = mu ?
+0
+ =>    0
+ 
+
+ Statistics from trees         :      Nodes       Data
+        operators ibtree       :      12158      12186
+        operators ictree       :       4444      12186
+        states    istree       :          6          2       2
+ 
+ *--------------  --------------*                                    
+  32   2   4   3  32   2   4   3
+ *--------------  --------------*                                    
+
+  < NL : AL( LM MU) ST  |||  T  ||| NR : AL( LM MU) ST >
+     7    1  32  2   1               7    1  32  2   1
+
+    < bra ||| N1 (LM MU)ST(x)N2 (LM MU)ST;RO( LM MU)ST ||| ket >RO
+               1 ( 6  0) 1(x) 1 ( 0  6) 1; 1(  0  0) 0           1      0.9354143467
+                                           1(  0  0) 2           1      0.2314550249
+                                           1(  1  1) 0           1     -1.7772816768
+                                           1(  1  1) 2           1     -0.2939120659
+                                           1(  1  1) 2           2     -0.2007893867
+                                           1(  2  2) 0           1      1.4771884457
+                                           1(  2  2) 0           2      0.2187322628
+                                           1(  2  2) 0           3      0.0404188425
+                                           1(  2  2) 2           1     -0.0291260928
+                                           1(  2  2) 2           2      0.6314256540
+                                           1(  2  2) 2           3      0.0590688186
+                                           1(  3  3) 0           1      0.2727742473
+                                           1(  3  3) 0           2      0.3636280500
+                                           1(  3  3) 0           3      0.2620592752
+                                           1(  3  3) 2           1     -0.3233632330
+                                           1(  3  3) 2           2      0.7284157503
+                                           1(  3  3) 2           3      0.4486827380
+                                           1(  4  4) 0           1     -0.8053001013
+                                           1(  4  4) 0           2      0.1387125823
+                                           1(  4  4) 0           3      0.6643479292
+                                           1(  4  4) 2           1     -0.1310449298
+                                           1(  4  4) 2           2      0.0494146097
+                                           1(  4  4) 2           3      1.1626915084
+                                           1(  5  5) 0           1     -1.0266354248
+                                           1(  5  5) 0           2     -0.3243484812
+                                           1(  5  5) 0           3      0.9687073500
+                                           1(  5  5) 2           1      0.3810395821
+                                           1(  5  5) 2           2     -0.9483419832
+                                           1(  5  5) 2           3      1.7062036838
+                                           1(  6  6) 0           1     -0.5606657163
+                                           1(  6  6) 0           2     -0.5101268670
+                                           1(  6  6) 0           3      0.8098709492
+                                           1(  6  6) 2           1      0.5740375171
+                                           1(  6  6) 2           2     -1.2049540341
+                                           1(  6  6) 2           3      1.4298175086
+ 
+
+ Statistics from trees         :      Nodes       Data
+        operators ibtree       :      12158      12186
+        operators ictree       :       4444      12186
+        rmes      irmtree      :         35         35
+Warning: ieee_invalid is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
