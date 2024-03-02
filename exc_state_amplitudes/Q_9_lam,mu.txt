@@ -1,0 +1,452 @@
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+31 2
+Enter (lm2 mu2) 
+11 
+^C
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+31 2
+Enter (lm2 mu2) 
+1 1
+Enter (lm12 mu12) 
+31 2
+Enter (lm3 mu3) 
+34 4
+Enter (lm4 mu4) 
+0 0
+Enter (lm34 mu34) 
+34 4
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6 
+(31 2)  (1 1)  (31 2)   rho12
+(34 4)  (0 0)  (34 4)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0            nan
+    0       0       0       0       0       1            nan
+    1       0       0       0       0       0            nan
+    1       0       0       0       0       1            nan
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+26 4
+Enter (lm2 mu2) 
+0 0
+Enter (lm12 mu12) 
+26 4
+Enter (lm3 mu3) 
+39 2
+Enter (lm4 mu4) 
+1 1
+Enter (lm34 mu34) 
+39 2
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(26 4)  (0 0)  (26 4)   rho12
+(39 2)  (1 1)  (39 2)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0           -nan
+    0       0       0       0       1       0           -nan
+    1       0       0       0       0       0           -nan
+    1       0       0       0       1       0           -nan
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+34 4
+Enter (lm2 mu2) 
+0 0
+Enter (lm12 mu12) 
+34 4
+Enter (lm3 mu3) 
+31 2
+Enter (lm4 mu4) 
+1 1
+Enter (lm34 mu34) 
+31 2
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(34 4)  (0 0)  (34 4)   rho12
+(31 2)  (1 1)  (31 2)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0     0.97595574
+    0       0       0       0       1       0    -0.00098587
+    1       0       0       0       0       0    -0.02462932
+    1       0       0       0       1       0     0.81111044
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+39 2
+Enter (lm2 mu2) 
+1 1
+Enter (lm12 mu12) 
+39 2
+Enter (lm3 mu3) 
+26 4
+Enter (lm4 mu4) 
+0 0
+Enter (lm34 mu34) 
+26 4
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(39 2)  (1 1)  (39 2)   rho12
+(26 4)  (0 0)  (26 4)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0     0.98431101
+    0       0       0       0       0       1     0.01208338
+    1       0       0       0       0       0    -0.03694422
+    1       0       0       0       0       1     0.81310920
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_SO3_WignerCoeffs
+SU(3) Wigner coefficients in physical basis: <(lm1 mu1) k1 L1; (lm2 mu3) k2 L2|| (lm3 mu3) k3 L3>rho.
+Enter (lm1 mu1) 
+65 6
+Enter L1 ... -1 to include all values
+1
+Enter (lm2 mu2) 
+1 1
+Enter L2 .... -1 to include all values
+2
+Enter (lm3 mu3) 
+65 6
+Enter L3 .... -1 to include all values
+3
+<(lm1 mu1) k1 L1; (lm2 mu2) k2 L2 || (lm3 mu3) k3 L3> rho = 1 ... 2
+  65  6     1 1     1  1     1 2      65  6     1 3  -0.50504751   0.04307178
+            1 1              1 2                2 3  -0.03182046  -0.37654365
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_SO3_WignerCoeffs
+SU(3) Wigner coefficients in physical basis: <(lm1 mu1) k1 L1; (lm2 mu3) k2 L2|| (lm3 mu3) k3 L3>rho.
+Enter (lm1 mu1) 
+65 6 
+Enter L1 ... -1 to include all values
+3
+Enter (lm2 mu2) 
+1 1 
+Enter L2 .... -1 to include all values
+2
+Enter (lm3 mu3) 
+65 6
+Enter L3 .... -1 to include all values
+3
+<(lm1 mu1) k1 L1; (lm2 mu2) k2 L2 || (lm3 mu3) k3 L3> rho = 1 ... 2
+  65  6     1 3     1  1     1 2      65  6     1 3   0.51446265  -0.04604746
+            2 3              1 2                1 3  -0.05039203  -0.57510652
+            1 3              1 2                2 3  -0.05039203  -0.57510652
+            2 3              1 2                2 3   0.00014044  -0.00307008
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_SO3_WignerCoeffs
+SU(3) Wigner coefficients in physical basis: <(lm1 mu1) k1 L1; (lm2 mu3) k2 L2|| (lm3 mu3) k3 L3>rho.
+Enter (lm1 mu1) 
+65 6
+Enter L1 ... -1 to include all values
+3
+Enter (lm2 mu2) 
+1 1
+Enter L2 .... -1 to include all values
+2
+Enter (lm3 mu3) 
+65 6
+Enter L3 .... -1 to include all values
+1
+<(lm1 mu1) k1 L1; (lm2 mu2) k2 L2 || (lm3 mu3) k3 L3> rho = 1 ... 2
+  65  6     1 3     1  1     1 2      65  6     1 1  -0.77147281   0.06579323
+            2 3              1 2                1 1  -0.04860656  -0.57517992
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+31 2
+Enter (lm2 mu2) 
+1 1
+Enter (lm12 mu12) 
+31 2
+Enter (lm3 mu3) 
+34 4
+Enter (lm4 mu4) 
+0 0
+Enter (lm34 mu34) 
+34 4
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(31 2)  (1 1)  (31 2)   rho12
+(34 4)  (0 0)  (34 4)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0            nan
+    0       0       0       0       0       1            nan
+    1       0       0       0       0       0            nan
+    1       0       0       0       0       1            nan
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+34 4
+Enter (lm2 mu2) 
+0 0 
+Enter (lm12 mu12) 
+34 4
+Enter (lm3 mu3) 
+31 2
+Enter (lm4 mu4) 
+1 1
+Enter (lm34 mu34) 
+31 2
+Enter (lm13 mu13) 
+65 6 
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(34 4)  (0 0)  (34 4)   rho12
+(31 2)  (1 1)  (31 2)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0     0.97595574
+    0       0       0       0       1       0    -0.00098587
+    1       0       0       0       0       0    -0.02462932
+    1       0       0       0       1       0     0.81111044
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+26 4
+Enter (lm2 mu2) 
+1 1
+Enter (lm12 mu12) 
+26 4
+Enter (lm3 mu3) 
+39 2
+Enter (lm4 mu4) 
+0 0
+Enter (lm34 mu34) 
+39 2
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(26 4)  (1 1)  (26 4)   rho12
+(39 2)  (0 0)  (39 2)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0           -nan
+    0       0       0       0       0       1           -nan
+    1       0       0       0       0       0           -nan
+    1       0       0       0       0       1           -nan
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+39 2
+Enter (lm2 mu2) 
+0 0
+Enter (lm12 mu12) 
+39 2
+Enter (lm3 mu3) 
+26 4
+Enter (lm4 mu4) 
+1 1
+Enter (lm34 mu34) 
+26 4
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(39 2)  (0 0)  (39 2)   rho12
+(26 4)  (1 1)  (26 4)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0     0.96920207
+    0       0       0       0       1       0    -0.05662691
+    1       0       0       0       0       0     0.05156441
+    1       0       0       0       1       0     0.93211575
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+31 2
+Enter (lm2 mu2) 
+0 0
+Enter (lm12 mu12) 
+31 2
+Enter (lm3 mu3) 
+34 4
+Enter (lm4 mu4) 
+1 1
+Enter (lm34 mu34) 
+34 4
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(31 2)  (0 0)  (31 2)   rho12
+(34 4)  (1 1)  (34 4)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0            nan
+    0       0       0       0       1       0            nan
+    1       0       0       0       0       0            nan
+    1       0       0       0       1       0            nan
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+34 4
+Enter (lm2 mu2) 
+1 1
+Enter (lm12 mu12) 
+34 4
+Enter (lm3 mu3) 
+31 2
+Enter (lm4 mu4) 
+0 0
+Enter (lm34 mu34) 
+31 2
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(34 4)  (1 1)  (34 4)   rho12
+(31 2)  (0 0)  (31 2)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0     0.98100930
+    0       0       0       0       0       1    -0.02905172
+    1       0       0       0       0       0     0.02191653
+    1       0       0       0       0       1     0.93693355
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ ./SU3_U9Coeffs
+Computation of U9 recoupling coefficients:
+(lm1 mu1)   (lm2 mu2)   (lm12 mu12) rho12
+(lm3 mu3)   (lm4 mu4)   (lm34 mu34) rho34
+(lm13 mu13) (lm24 mu24) (lm mu)     rho1324
+   rho13       rho24    rho1234
+
+Enter (lm1 mu1) 
+39 2
+Enter (lm2 mu2) 
+1 1
+Enter (lm12 mu12) 
+39 2
+Enter (lm3 mu3) 
+26 4
+Enter (lm4 mu4) 
+0 0 
+Enter (lm34 mu34) 
+26 4
+Enter (lm13 mu13) 
+65 6
+Enter (lm24 mu24) 
+1 1
+Enter (lm mu) 
+65 6
+(39 2)  (1 1)  (39 2)   rho12
+(26 4)  (0 0)  (26 4)   rho34
+(65 6)  (1 1)  (65 6)   rho1324
+rho13  rho24  rho1234
+
+ rho1324   rho24   rho13 rho1234   rho34   rho12
+    0       0       0       0       0       0     0.98431101
+    0       0       0       0       0       1     0.01208338
+    1       0       0       0       0       0    -0.03694422
+    1       0       0       0       0       1     0.81310920
+(base) alejandro@alejandro:~/Downloads/Thesis_Programs/su3lib/tools$ 
+
